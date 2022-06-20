@@ -13,12 +13,11 @@ import {
   Pagination,
   Card,
 } from "react-bootstrap";
-import logo from "./logo.svg";
 import Slider1 from "./images/Slider1.jpg";
 import Slider2 from "./images/Slider2.jpg";
 import Slider3 from "./images/Slider3.jpg";
 import card1 from "./images/card1.jpg";
-import card2 from "./images/card2.jpg";
+// import card2 from "./images/card2.jpg";
 import card3 from "./images/card3.jpg";
 import card4 from "./images/card4.jpg";
 import card5 from "./images/card5.gif";
@@ -64,6 +63,7 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
       {/* Carousels Code */}
       <Carousel variant="dark">
         <Carousel.Item>
@@ -257,20 +257,20 @@ function App() {
               <ul className="list-unstyled">
                 <li>
                   <a href="#!">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <i class="fa-brands fa-instagram-square"></i>
+                  <i className="fa-brands fa-instagram-square"></i>
                 </li>
                 <li>
                   <a href="#!">
-                    <i class="fa-brands fa-twitter"></i>
+                    <i className=" fa-brands fa-twitter"></i>
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    <i class="fa-brands fa-facebook"></i>
+                    <i className="fa-brands fa-facebook"></i>
                   </a>
                 </li>
               </ul>
@@ -280,7 +280,7 @@ function App() {
 
         <div className="footer-copyright text-center py-3">
           © 2022 Copyright:
-          <a href="#"> Mangateam.com</a>
+          <a href="google.com"> Mangateam.com</a>
         </div>
       </footer>
     </div>
